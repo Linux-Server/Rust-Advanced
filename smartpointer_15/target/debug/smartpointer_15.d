@@ -1,0 +1,1 @@
+/home/oem/Desktop/AXOMIUM/rust/RustDoc/Rust-Advanced/smartpointer_15/target/debug/smartpointer_15: /home/oem/Desktop/AXOMIUM/rust/RustDoc/Rust-Advanced/smartpointer_15/src/box_15_1.rs /home/oem/Desktop/AXOMIUM/rust/RustDoc/Rust-Advanced/smartpointer_15/src/deref_trait_15_2.rs /home/oem/Desktop/AXOMIUM/rust/RustDoc/Rust-Advanced/smartpointer_15/src/main.rs

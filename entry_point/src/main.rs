@@ -8,8 +8,8 @@
 //! }
 //! ```
 
-use closure::tester;
+use closure::declare_closure;
 fn main() {
     println!("Hello, Entry Point!");
-    let _x = tester();
+    declare_closure();
 }

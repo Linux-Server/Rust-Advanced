@@ -13,5 +13,8 @@ fn main() {
     println!("Hello, Entry Point!");
     // declare_closure();
     // type_inference()
-    capture_reference()
+    capture_reference();
+
+    let x = 10;
+    let y = vec![1,2,3];
 }

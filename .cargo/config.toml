@@ -1,2 +1,0 @@
-[build]
-rustdocflags = [ "-Z", "unstable-options", "--playground-url", "https://play.rust-lang.org" ]

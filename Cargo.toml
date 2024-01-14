@@ -1,2 +1,10 @@
 [workspace]
-members = ["entry_point"]
+members = [ "closure","entry_point"]
+resolver = "2"
+
+
+# Checks docs are missing for any crate in the workspace.
+[workspace.lints.rust]
+missing_docs = "warn"
+dead_code = "allow"
+unused_imports = "allow"

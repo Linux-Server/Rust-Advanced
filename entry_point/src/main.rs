@@ -8,8 +8,10 @@
 //! }
 //! ```
 
-use closure::declare_closure;
+use closure::{declare_closure, type_inference, capture_reference};
 fn main() {
     println!("Hello, Entry Point!");
-    declare_closure();
+    // declare_closure();
+    // type_inference()
+    capture_reference()
 }

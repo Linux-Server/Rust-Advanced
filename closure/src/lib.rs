@@ -1,4 +1,3 @@
-#![doc(html_playground_url = "https://play.rust-lang.org")]
 //! # Closure
 //! A function like construct, that you can store in a variable
 //!  - Its an anonymous function that can capture their environment
@@ -78,6 +77,18 @@ pub fn type_inference() {
 
 pub fn capture_reference(){
     //! # Capture reference
+    //! Closures can capture values from their environment in three ways,
+    //! which directly map to the three ways a function can take a parameter: borrowing immutably, borrowing mutably, and taking ownership.
+    //! The closure will decide which of these to use based on what the body of the function does with the captured values.
+    //!
+    //! ## Borrow immutably
+    //!
+    //! ```
+    //!     let list = vec![1,2,3,4,5];
+    //!     let only_borrow = || println!("{:?}", list);
+    //!     only_borrow(); // call the closure
+    //!     println!("The list after borrow : {:?}", list);
+    //! ```
     let list = vec![1,2,3,4,5];
     let only_borrow = || println!("{:?}", list);
     only_borrow(); // call the closure

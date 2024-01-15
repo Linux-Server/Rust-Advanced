@@ -1,6 +1,7 @@
-#![doc = include_str!("closure.md")]
+#![doc = include_str!("docs/closure.md")]
 
 pub fn declare_closure() {
+    #![doc = include_str!("docs/declare_closure.md")]
     // Define an empty closure
     let first_closure = || 10;
     println!("The first closure : {:?}", first_closure());
@@ -14,7 +15,7 @@ pub fn declare_closure() {
 }
 
 pub fn type_inference() {
-
+    #![doc = include_str!("docs/type_inferance.md")]
     let infers = |x: i32| x + 100;
     println!("{}", infers(10));
 

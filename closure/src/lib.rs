@@ -7,7 +7,7 @@ pub fn declare_closure() {
     println!("The first closure : {:?}", first_closure());
     // A closure receiving args
     let x = |val| val + 10;
-    println!("The first closure  : {:?}", x(1));
+    println!("The first closure : {:?}", x(1));
     // closure capturing env
     let a = 10;
     let capture_env = || println!("captured value: {:?}", a);

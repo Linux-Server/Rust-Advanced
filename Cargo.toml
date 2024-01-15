@@ -1,0 +1,16 @@
+[workspace]
+members = [ "closure","entry_point"]
+resolver = "2"
+
+
+# Checks docs are missing for any crate in the workspace.
+[workspace.lints.rust]
+missing_docs = "warn"
+dead_code = "allow"
+unused_imports = "allow"
+
+#  this will only work in nightly version
+#[workspace.metadata.docs.rs]
+#rustdoc-args = [ "-Z", "unstable-options", "--playground-url", "https://play.rust-lang.org" ]
+
+
